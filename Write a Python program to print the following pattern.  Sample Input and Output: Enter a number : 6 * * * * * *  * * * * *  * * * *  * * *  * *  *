@@ -1,0 +1,5 @@
+def inverted_str_pattern(n):
+	for i in range (n,0,-1):
+		print('* '*i)
+rows = int(input("Enter a number : "))
+inverted_str_pattern(rows)
